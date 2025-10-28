@@ -1,31 +1,29 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>GD Advance - Ebert Hub</title>
-    <style>
-      body {
-        background-color: #0a0a0a;
-        color: white;
-        text-align: center;
-      }
-      iframe {
-        width: 480px;
-        height: 320px;
-        border: none;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>GD Advance (GBA)</h1>
-    <div id="emulator"></div>
-
-    <script src="https://cdn.jsdelivr.net/gh/ethanaobrien/emulatorjs/emulator.min.js"></script>
-    <script>
-      EmulatorJS.launch({
-        type: 'gba',
-        romUrl: 'games/gdadvance.gba'
-      });
-    </script>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GD Advance (GBA)</title>
+  <style>
+    body {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    iframe {
+      border: none;
+      width: 960px;
+      height: 720px;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>GD Advance (GBA)</h1>
+  <p>Running on EmulatorJS</p>
+  <iframe src="https://cdn.emulatorjs.org/loader.html?rom=https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/gd_adv.gba" allowfullscreen></iframe>
+</body>
 </html>
